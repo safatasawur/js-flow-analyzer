@@ -6,13 +6,8 @@ This document describes the manually constructed test cases used to evaluate the
 
 ## Summary
 
-| # | Test case                                           | Expected result                     |Outcome    |
-|---|------------------------------------------------------------------------------------------ |-----------|
-| 1 | Direct sensitive data passed to a sink              | Finding reported                     | Passed   |
-| 2 | Sensitive data copied to another variable           | Finding reported                     | Passed   |
-| 3 | Sensitive data passed through a helper function     | Finding reported                     | Passed   |
-| 4 | Function returns a constant instead of its argument | No finding for the returned constant | Passed   |
-| 5 | Sensitive data passed to an unknown function        | Behavior may be incomplete           | documented|
+<img width="844" height="173" alt="image" src="https://github.com/user-attachments/assets/47181338-e1e1-4386-b0d2-d2159badc745" />
+
 
 **Evaluation summary:** The prototype was tested on selected positive and negative examples. The results demonstrate basic source-to-sink tracking, but do not establish comprehensive coverage of JavaScript information flows.
 
